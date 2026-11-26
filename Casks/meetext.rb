@@ -6,7 +6,7 @@ cask "meetext" do
   url "https://github.com/aycandv/homebrew-meetext/releases/download/v#{version}/Meetext-#{version}.zip"
   name "Meetext"
   desc "Record calls and write notes with action items, transcribed locally"
-  homepage "https://github.com/aycandv/homebrew-meetext"
+  homepage "https://meetext.aycandv.dev"
 
   depends_on arch: :arm64
   depends_on formula: "whisperkit-cli"
