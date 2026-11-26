@@ -1,7 +1,7 @@
 cask "meetext" do
   # scripts/release.sh in meetext-app sets the version and the checksum of each release.
-  version "0.1.0"
-  sha256 "48bbbcbedf828cf2944578e5dbb57cb6695a93c1a697f753cda88169a899e4a5"
+  version "0.1.1"
+  sha256 "c6a9d8f1981b5b6d2df490f1484dde93ab344fc946e8584f13ff4384553138cd"
 
   url "https://github.com/aycandv/homebrew-meetext/releases/download/v#{version}/Meetext-#{version}.zip"
   name "Meetext"
