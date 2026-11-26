@@ -1,6 +1,7 @@
 # Homebrew tap for Meetext
 
-[Meetext](https://github.com/aycandv/meetext-app) records calls on your Mac and writes notes with action items.
+Meetext records calls on your Mac and writes notes with action items. The speech to text runs on your Mac.
+The signed and notarized app is in [Releases](https://github.com/aycandv/homebrew-meetext/releases).
 
 ## Install
 

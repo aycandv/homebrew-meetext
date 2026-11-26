@@ -1,12 +1,12 @@
 cask "meetext" do
   # scripts/release.sh in meetext-app sets the version and the checksum of each release.
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "48bbbcbedf828cf2944578e5dbb57cb6695a93c1a697f753cda88169a899e4a5"
 
-  url "https://github.com/aycandv/meetext-app/releases/download/v#{version}/Meetext-#{version}.zip"
+  url "https://github.com/aycandv/homebrew-meetext/releases/download/v#{version}/Meetext-#{version}.zip"
   name "Meetext"
   desc "Record calls and write notes with action items, transcribed locally"
-  homepage "https://github.com/aycandv/meetext-app"
+  homepage "https://github.com/aycandv/homebrew-meetext"
 
   depends_on arch: :arm64
   depends_on formula: "whisperkit-cli"
